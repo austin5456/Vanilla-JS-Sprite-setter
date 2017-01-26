@@ -1,0 +1,189 @@
+﻿/*#region Css Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*#endregion */
+
+.global_wrap {
+    width: 100%;
+    height: 100%;
+}
+
+
+.content {
+    width: 1012px;
+    height: 1200x;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+/*#region header*/
+
+header {
+    width: 100%;
+    height: 180px;
+    background-color: rgb(161, 193, 244);
+    position: relative;
+}
+.hcontent {
+    background-color: rgb(161, 193, 244);
+    background: radial-gradient(ellipse at center, white 20%, rgb(161, 193, 244) 80%);
+    background: -webkit-radial-gradient(ellipse at center, white 20%, rgb(161, 193, 244) 80%);
+    width: 100%;
+    height:100%;
+}
+/*#region smeadia*/
+
+.smedia {
+    height: 27px;
+}
+.smedia > ul {
+    position: relative;
+    display: inline-block;
+    margin-left: 114px;
+    height: 27px;
+    margin-right: 8px;
+    margin-top: 8px;
+    vertical-align: top;
+}
+.hcontent aside.js {
+    font-family: cursive;
+    position: absolute;
+    left: 240px;
+    top: 60px;
+    font-size: 3em;
+}
+.hcontent aside.css {
+    font-family: cursive;
+    position: absolute;
+    left: 600px;
+    top: 60px;
+    font-size: 3em;
+}
+.smedia > ul li {
+    height: 27px;
+    width: 28px;
+    float: left;
+}
+.smedia a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    height: 27px;
+    width: 28px;
+}
+#jSocialV li {
+    float: none;
+}
+#CssSocialV li {
+    float: none;
+}
+#CssSocialV li a {
+    transition: none;
+}
+.fb {
+    background: url(../Imgs/tryit.png) no-repeat;
+    transition: 550ms;
+}
+.fb:hover {
+    background: url(../Imgs/tryit.png) no-repeat 0 -28px;
+}
+
+.tt {
+    background: url(../Imgs/tryit.png) no-repeat -28px 0;
+    transition: 550ms;
+}
+.tt:hover {
+    background: url(../Imgs/tryit.png) no-repeat -28px -28px;
+}
+
+.yt {
+    background: url(../Imgs/tryit.png) no-repeat -56px 0;
+    transition: 550ms;
+}
+.yt:hover {
+    background: url(../Imgs/tryit.png) no-repeat -56px -28px;
+}
+
+.ig {
+    background: url(../Imgs/tryit.png) no-repeat -84px 0;
+    transition: 550ms;
+}
+.ig:hover {
+    background: url(../Imgs/tryit.png) no-repeat -84px -28px;
+}
+
+.t {
+    background: url(../Imgs/tryit.png) no-repeat -112px 0px;
+    transition: 550ms;
+}
+.t:hover {
+    background: url(../Imgs/tryit.png) no-repeat -112px -28px;
+}
+
+.gg {
+    background: url(../Imgs/tryit.png) no-repeat -140px 0px;
+    transition: 550ms;
+}
+.gg:hover {
+    background: url(../Imgs/tryit.png) no-repeat -140px -28px;
+}
+
+/*#endregion*/
+
+/*#endregion*/
