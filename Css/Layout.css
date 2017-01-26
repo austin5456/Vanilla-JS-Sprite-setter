@@ -102,17 +102,17 @@ header {
     vertical-align: top;
 }
 .hcontent aside.js {
-    font-family: cursive;
+    font-family: san-serif;
     position: absolute;
-    left: 240px;
-    top: 60px;
+    left: 256px;
+    top: 10px;
     font-size: 3em;
 }
 .hcontent aside.css {
-    font-family: cursive;
+    font-family: san-serif;
     position: absolute;
     left: 600px;
-    top: 60px;
+    top: 10px;
     font-size: 3em;
 }
 .smedia > ul li {
@@ -126,6 +126,12 @@ header {
     text-decoration: none;
     height: 27px;
     width: 28px;
+}
+#social {
+    margin-top: 76px;
+}
+#jSocial {
+    margin-top: 76px;
 }
 #jSocialV li {
     float: none;

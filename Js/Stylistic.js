@@ -1,4 +1,4 @@
-﻿"use strict"
+"use strict"
 function makeSprite(wdth, hgth, dlay, parentid, path) {
     sSetup();
     function sSetup() {
