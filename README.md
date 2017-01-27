@@ -7,7 +7,7 @@ You must already have a horizontal sprite image similar to the one I'm using.
 
 The function has five parameters, it takes in strings for the variables you want to set, the first two take in the dimensions
 of the individual element in the sprite you want to use ( so if you're using a  700px wide sprite with seven icons in it stuck to 
-eachother your width would be 100px) the sprite height is the ammout it's going to transition on hover, if you don't want or have 
+eachother your width would be 100px) if there is a small gap between them pelase do the math. The sprite height is the ammout it's going to transition on hover, if you don't want or have 
 anything to transition to leave it at 0. Then you specify the transition speed you would like, the next parameter is the parent 
 element you're using, and finally the url of the image.
 
