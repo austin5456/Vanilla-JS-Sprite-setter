@@ -21,3 +21,8 @@ makeSprite("28", "-28", "550", "jSocial", "../Imgs/tryit.png");
 of the parent UL and finally "../Imgs/tryit.png" is the path.
 
 This is the first plugin I've made so if you find any errors or find a better way to do it please let me know, thanks.
+
+
+Here I have a small demo of the JS vs the Css in action.
+
+http://htmlpreview.github.io/?https://github.com/austin5456/Vanilla-JS-Sprite-setter/blob/master/Html/Index.html
