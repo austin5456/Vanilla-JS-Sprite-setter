@@ -189,6 +189,11 @@ header {
 .gg:hover {
     background: url(../Imgs/tryit.png) no-repeat -140px -28px;
 }
+header + div {
+    text-align: center;
+    font-family: san-serif;
+    font-size: 2em;
+}
 
 /*#endregion*/
 
